@@ -4,7 +4,7 @@ provider "aws" {
 
 # Data source to fetch the existing Route53 zone
 data "aws_route53_zone" "selected" {
-  name         = "monlab.run."  # Replace with your domain name, don't forget the trailing dot
+  name         = "monservice.com."  # Replace with your domain name, don't forget the trailing dot
   private_zone = false
 }
 
